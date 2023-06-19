@@ -1,0 +1,29 @@
+
+.Green {
+    color: #00FF00;
+    /* color: rgb(red, green, blue);
+    color: rgba(red, green, blue, alpha)  here alpha is for transparency of the colors*/
+    /* remember RGB = 00FF00   , Red=00 green =FF, blue = 00 */
+
+    /* color: hsl(hue =0-360, saturation= 0-100%, lightness = 0-100%); */
+}
+
+/* h1 {
+    color:green;
+}
+
+#h1color {
+    color:yellow;
+} */
+
+/* Priority of css applied */
+/* Inline>Id>>Class */
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 50px;
+    border: solid 5px black;
+    background-color: red;
+}
