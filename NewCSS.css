@@ -1,0 +1,110 @@
+body {
+    background-color: #f4f4f4;
+    color: #666666;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 1.7em;
+   
+
+}
+
+.Box1 {
+    background-color: azure;
+}
+
+h2 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration: dotted;
+}
+li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: orange;
+}
+a:visited {
+    color: rgb(187, 190, 39);
+}
+
+.login_form{
+    padding: 50px;
+
+}
+
+.login_form .form-group {
+    padding-bottom: 15px;
+}
+
+.login_form label {
+   display: block;
+}
+.login_form input[type ="text"],[type="password"], .login_form textarea {
+    padding: 10px;
+    width: 50%;
+}
+
+.button
+{
+    background-color: rgb(35, 37, 35);
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+
+}
+.button:hover{
+    background-color: green;
+}
+.login_form textarea{
+    height: 200px;
+}
+
+.block-1 {
+    float: left;
+    width: 50%;
+}
+
+.block-2 {
+    float: right;
+    width: 50%;
+    color: white;
+    background-color: darkcyan;
+    padding: 10px;
+    box-sizing:border-box ;   
+}
+
+.pos {
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+}
+
+.pos h2 {
+
+    position:relative;
+    top: 50px;
+}
+
+ .phone-list li:first-child {
+    background-color: greenyellow;
+}
+
+.phone-list li:last-child {
+    background-color: rgb(148, 148, 195);
+} 
+
+
+.phone-list li:nth-child(3) {
+    background-color: orange;
+}
