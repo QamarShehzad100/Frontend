@@ -23,8 +23,9 @@ body{
     color: white;
 }
 #nav-bar {
-    background-color: cornsilk;
+    background-color: grey;
     color: goldenrod;
+
 
 }
 #nav-bar ul {
@@ -35,6 +36,13 @@ body{
 #nav-bar li{
     display: inline;
     padding-right: 30px;
+    padding: 10px;
+   
+
+}
+#nav-bar a{
+    color: white;
+     text-decoration: none;
 }
 .headings{
     color: red;
@@ -74,4 +82,31 @@ body{
 .services-container.service3 {
     width: 33%;
     background-color: darkgrey;
+}
+.service1{
+    float: left;
+    width: 31%;
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.service2 {
+    float: left;
+    padding-right: 40px;
+    width: 31%;
+    text-align: justify;
+}
+.service3 {
+    float: left;
+    width: 31%;
+    text-align: justify;
+
+}
+/* .services-heading {
+    padding-top: 20px;
+
+} */
+
+.parahgraphs {
+    margin-bottom: 40px;
 }
